@@ -1,16 +1,26 @@
 body {
-  font-family: sans-serif;
+  font-family: 'Jua', sans-serif;
   background-color: #ffffff;
 }
 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
+
 .file-upload {
-  background-color: #ffffff;
 	margin: 0 auto;
 	padding:13% 3%;
-	height: 70vw;
+	/* height: 70vw; */
 	border-radius: 10px;
-	border: solid 1.5px #ffffff;
-	background-color: #ffffff;
+	border: solid 1.5px #f6f7fa;
+	background-color: #f6f7fa;
 }
 
 .file-upload-btn {
@@ -86,7 +96,7 @@ body {
   font-weight: 100;
   text-transform: uppercase;
   color: #15824B;
-	font-family: NanumSquareR;
+	font-family: Jua;
 	font-size: 2rem;
 	line-height: 1.53;
 	text-align: center;
@@ -95,8 +105,8 @@ body {
 }
 
 .file-upload-image {
-  max-height: 200px;
-  max-width: 200px;
+  max-height: 60%;
+  max-width: 60%;
   margin: auto;
   padding: 20px;
 }
@@ -131,7 +141,7 @@ body {
 	padding: 2.1% 7.7%
 }
 .navbar-light .navbar-brand {
-	font-family: NanumSquareR;
+	font-family: Jua;
 	line-height: 1.68;
 	text-align: left;
 	color: #35465d;
@@ -143,7 +153,7 @@ body {
 	margin-top: 100px;
 }
 .title {
-	font-family: NanumSquareR;
+	font-family: Jua;
 	font-size: 44.5px;
 	line-height: 1.67;
 	text-align: center;
@@ -151,7 +161,7 @@ body {
 }
 
 .subtitle {
-	font-family: NanumSquareR;
+	font-family: Jua;
 	font-size: 33px;
 	line-height: 1.53;
 	text-align: center;
@@ -160,13 +170,18 @@ body {
 
 .upload-text {
 	width: 50%;
-	font-family: NanumSquareR;
+	font-family: Jua;
 	font-size: 2.5rem;
 	line-height: 1.53;
 	text-align: center;
 	color: #35465d;
 	margin: 0 auto;
 }
+.footer {
+    background-color: initial;
+    color: initial;
+}
+
 /* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 600px) {
   html {
@@ -177,3 +192,53 @@ body {
 	}
 }
 
+.result-message {
+    font-size: 2rem;
+}
+
+
+.animal-explain {
+    font-size: 1.5rem;
+}
+.꼬부기타 {
+    color: #3ba363;
+}
+.꼬부기셀 {
+    color: #3ba363;
+    font-size: 1.2rem;
+}
+.리자몽타 {
+    color: #3ba363;
+}
+.리자몽셀 {
+    color: #3ba363;
+    font-size: 1.2rem;
+}
+.피카츄타 {
+    color: #ff6c0a;
+}
+.피카츄셀 {
+    color: #ff6c0a;
+    font-size: 1.2rem;
+}
+.치코리타 {
+    color: #548dd4;
+}
+.치코리셀 {
+    color: #548dd4;
+    font-size: 1.2rem;
+}
+.파이리타 {
+    color: #e56995;
+}
+.파이리셀 {
+    color: #e56995;
+    font-size: 1.2rem;
+}
+.잠만보타 {
+    color: #9b6b43;
+}
+.잠만보셀 {
+    color: #9b6b43;
+    font-size: 1.2rem;
+}
